@@ -1,0 +1,30 @@
+@import '../../styles/_colors';
+
+.trashImg {
+  max-width: 200px;
+  max-height: 200px;
+  border-radius: 10px;
+  margin-right: 15px;
+}
+
+.cardBodyContent {
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.infoItem {
+  padding: 10px;
+  border-radius: 5px;
+  background-color: $dark-primary;
+  margin: 7px 0;
+  border: 1px solid $dark-border;
+}
+
+.filling {
+  color: $color-success;
+
+  &.isFill {
+    color: $color-dangerous;
+  }
+}

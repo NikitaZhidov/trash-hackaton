@@ -1,0 +1,29 @@
+@import '../../styles/_colors';
+@import '../../styles/_font';
+
+.wrapper {
+  background-color: $dark-primary;
+  border-right: 1px solid $dark-border;
+}
+
+.navigation {
+  margin-top: 32px;
+  width: 300px;
+}
+
+.navLink {
+  font-size: $text-lg;
+  padding: 10px 20px;
+  display: block;
+  text-align: center;
+  font-weight: 600;
+  text-transform: uppercase;
+
+  &:hover {
+    background-color: $dark-secondary;
+    transition: all 0.1s ease;
+  }
+}
+
+.navLinkAcitve {
+}

@@ -1,0 +1,15 @@
+@import './colors';
+
+.leaflet-div-icon {
+  background: transparent;
+  border: none;
+}
+
+.leaflet-popup-tip-container {
+  display: none;
+}
+
+.leaflet-popup-content-wrapper {
+  background-color: $dark-translucent;
+  border-radius: 2px;
+}
