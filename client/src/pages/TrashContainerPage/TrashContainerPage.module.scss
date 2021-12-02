@@ -1,0 +1,23 @@
+@import '../../styles/_colors';
+
+.title {
+  text-align: center;
+}
+
+.imgWrapper {
+  text-align: center;
+}
+
+.img {
+  max-width: 80%;
+  border-radius: 10px;
+  border: 1px solid $dark-border;
+}
+
+.containerInfo {
+  padding: 15px;
+  text-align: center;
+  background: $dark-primary;
+  border: 1px solid $dark-border;
+  margin: 20px 0;
+}
