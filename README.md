@@ -13,10 +13,10 @@
 для запуска бота нужен python3, а так же сторонние библиотеки json, numpy, telebot.
 
 <ul>
-    <li>'''$ python install pip</li>
-    <li>'''$ pip numpy</li>
-    <li>'''$ pip json</li>
-    <li>'''$ pip telebot</li>
-    <li>'''$ python main.py</li>
+    <li>'''bash$ python install pip</li>
+    <li>'''bash$ pip numpy</li>
+    <li>'''bash$ pip json</li>
+    <li>'''bash$ pip telebot</li>
+    <li>'''bash$ python main.py</li>
 </ul>
 
