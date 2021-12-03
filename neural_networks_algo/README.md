@@ -2,12 +2,12 @@
 - conda install pytorch torchvision torchaudio cudatoolkit=10.2 -c pytorch
 - pip install opencv-python efficientnet-pytorch Pillow albumentations
 
+
+# Детекция заполненности мусорных баков
 ## Детекция
 ### Модель:
 
 В качестве модели для детекции в обоих задачах использовалась [yolov5s](https://github.com/ultralytics/yolov5).
-
-Для решения задачи детекции баков модель была обучена на наших данных, для решения задачи поиска свободных парковочных мест использовалась предобученная модель.
 
 ### Датасет
 
