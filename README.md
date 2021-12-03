@@ -1,21 +1,12 @@
-# trash-hackaton
+# Навигация
+- TelegramApp - телеграм-бот для поиска ближайших свободных парковочный мест
+- neural_networks_algo - В папке содержится все файлы, касающиеся обучения и инференса моделей
+- web - Front-end и back-end для решения задачи детекции заполненности баков
 
-для запуска клиента для разработки и тестов (нужен NodeJs):
+# Детекция заполненности баков
 
-<ul>
-    <li>cd client</li>
-    <li>npm i</li>
-    <li>npm run start</li>
-</ul>
+[Демо приложения для отслеживания заполненности мусорных баков](https://hackaton-trash-app.herokuapp.com/map)
 
-# TelegramApp
+# Поиск ближайших свободных парковочных мест
 
-для запуска бота нужен python3, а так же сторонние библиотеки json, numpy, telebot.
-
-```bash
-python install pip
-pip install numpy
-pip install json
-pip install pytelegrambotapi
-python main.py
-```
+Наш телеграм бот: @ParkingEyeBot
