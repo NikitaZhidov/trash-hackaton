@@ -9,4 +9,6 @@
 
 # Поиск ближайших свободных парковочных мест
 
+[Демо телеграм-бота](https://github.com/NikitaZhidov/trash-hackaton/blob/master/TelegramApp/telegram_demo.MP4)
+
 Наш телеграм бот: @ParkingEyeBot
