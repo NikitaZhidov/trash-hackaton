@@ -8,9 +8,9 @@ bot = telebot.TeleBot('5093740119:AAGiXZ4W5UIxWCA5_PociTPfh7FU7gepCUc');
 @bot.message_handler(content_types=['text'])
 def get_start_messages(message):
     if message.text == "/start":
-        bot.send_message(message.from_user.id, "Добро пожаловать!!!\nОтправь свою геолокацию боту, чтобы получить изображения ближайщих парковочных и его адрес")
+        bot.send_message(message.from_user.id, "Добро пожаловать!!!\nОтправь свою геолокацию боту, чтобы получить изображения ближайщих парковочных мест и их адрес")
     elif message.text == "/help":
-        bot.send_message(message.from_user.id, "Отправь свою геолокацию боту, чтобы получить изображения ближайщих парковочных и его адрес")
+        bot.send_message(message.from_user.id, "Отправь свою геолокацию боту, чтобы получить изображения ближайщих парковочных мест и их адрес")
     else:
         bot.send_message(message.from_user.id, "Я тебя не понимаю. Напиши /help.")
 
