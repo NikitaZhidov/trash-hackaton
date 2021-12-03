@@ -22,7 +22,6 @@ export const TrashContainerPage = () => {
   const [fetchTrashContainerInfo, isLoadingTrashContainerInfo] = useFetching(
     async (...args) => {
       const container = await trashApi.getTrashContainerById(...args);
-      console.log(container);
       setTrashContainerInfo(container);
     }
   );

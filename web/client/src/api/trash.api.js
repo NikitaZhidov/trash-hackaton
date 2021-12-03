@@ -19,4 +19,9 @@ export const trashApi = {
     const res = await baseAxios.get(`/container/${id}`);
     return res.data;
   },
+
+  async getShortRoutes() {
+    const res = await baseAxios.get(`/route`);
+    return res.data;
+  },
 };

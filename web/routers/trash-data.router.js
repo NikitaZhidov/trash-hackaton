@@ -1,5 +1,6 @@
 import { Router } from 'express';
 import { HackCall } from '../models/hack_call.js';
+import { HackRoute } from '../models/hack_route.js';
 import { garagePosition } from '../mockdata/mock-data.js';
 import { ContainerDto } from '../dto/ContainerDto.js';
 
@@ -21,6 +22,12 @@ router.get('/container/:id', async (req, res) => {
 
   const container = await HackCall.findOne({ cam_id });
   return res.json(new ContainerDto(container));
+});
+
+router.get('/route', async (req, res) => {
+  const result = await HackRoute.find({});
+
+  return res.json(result[0].path);
 });
 
 export default router;
