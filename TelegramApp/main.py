@@ -25,13 +25,14 @@ def get_location_message(message):
         point_1 = np.array((x, y))
         min = 1000
         id = 0
+        
         for i in range(12):
             x1 = (d['coord'][i]['position'][0])
             y1 = (d['coord'][i]['position'][1])
             point_2 = ((x1, y1))
             distance = np.linalg.norm(point_1-point_2)
             #print(distance)
-            if distance < min:
+            if distance < min and d['coord'][i]['cnt_empty'] >= 1:
                 min = distance
                 id = i
         #print(id)
