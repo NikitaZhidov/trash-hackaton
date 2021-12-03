@@ -17,6 +17,9 @@
 
 mAP@.5: 0.973
 
+### Веса
+
+[Веса для модели детекции](https://github.com/NikitaZhidov/trash-hackaton/blob/master/neural_networks_algo/bins/weights/best(3).pt)
 
 ## Классификация заполненности баков
 
