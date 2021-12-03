@@ -9,7 +9,7 @@ import { Button } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import { AppRoutes } from '../../constants/AppRoutes';
 
-const isCriticalFilling = (totalAmount, filled) => {
+export const isCriticalFilling = (totalAmount, filled) => {
   const criticalPart = 0.5;
   return filled / totalAmount > criticalPart;
 };
@@ -43,13 +43,11 @@ export const MapMarker = ({ containerInfo }) => {
             {new Date(Math.ceil(containerInfo.time) * 1000).toLocaleString()}
           </div>
           <div className={s.popupRow}>
-            <Button variant="success">
-              <Link
-                to={AppRoutes.GetRoutToTrashContainer(containerInfo.address.id)}
-              >
-                Подробнее
-              </Link>
-            </Button>
+            <Link
+              to={AppRoutes.GetRoutToTrashContainer(containerInfo.address.id)}
+            >
+              <Button variant="success">Подробнее</Button>
+            </Link>
           </div>
         </Popup>
       </Marker>

@@ -2,7 +2,6 @@ import { Router } from 'express';
 import { HackCall } from '../models/hack_call.js';
 import { garagePosition } from '../mockdata/mock-data.js';
 import { ContainerDto } from '../dto/ContainerDto.js';
-import { fileTypeFromBuffer } from 'file-type';
 
 const router = Router();
 
@@ -17,13 +16,11 @@ router.get('/container', async (req, res) => {
   return res.json(containersToClient);
 });
 
-router.get('/image/:id', async (req, res) => {
-  const cam_id = req.params.id;
+router.get('/container/:id', async (req, res) => {
+  const cam_id = parseInt(req.params.id);
 
-  const containerWithImage = await HackCall.findOne({ cam_id });
-
-  console.log(containerWithImage.img_bytes);
-  return res.contentType('text/plain').send(containerWithImage.img_bytes);
+  const container = await HackCall.findOne({ cam_id });
+  return res.json(new ContainerDto(container));
 });
 
 export default router;

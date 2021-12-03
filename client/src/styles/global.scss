@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital;wght@0,300;0,400;0,700;1,300&display=swap');
 @import './colors';
 
 *,
@@ -16,4 +16,27 @@ a {
   &:hover {
     color: $text-color;
   }
+}
+
+.spinner-preloader-wrapper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fullscreen-wrapper {
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  position: fixed;
+  background-color: $dark-translucent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.close-btn {
 }

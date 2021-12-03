@@ -4,6 +4,7 @@ import s from './App.module.scss';
 import { Sidebar } from './components/Sidebar/Sidebar';
 import { AppRoutes } from './constants/AppRoutes';
 import { MapPage } from './pages/MapPage/MapPage';
+import { RedirectPage } from './pages/RedirectPage';
 import { TrashContainerPage } from './pages/TrashContainerPage/TrashContainerPage';
 import { TrashContainersListPage } from './pages/TrashContainersListPage/TrashContainersListPage';
 
@@ -23,6 +24,7 @@ export const App = () => {
               path={AppRoutes.TrashContainersList.route}
               element={<TrashContainersListPage />}
             />
+            <Route path="*" element={<RedirectPage />} />
           </Routes>
         </div>
       </div>

@@ -9,7 +9,7 @@ const HackCallSchema = new mongoose.Schema({
 });
 
 export const HackCall = mongoose.model(
-  'hack_call',
+  'hack_call2',
   HackCallSchema,
-  'hack_call'
+  'hack_call2'
 );

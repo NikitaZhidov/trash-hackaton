@@ -1,5 +1,12 @@
 @import '../../styles/_colors';
 
+.infoWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
 .title {
   text-align: center;
 }
@@ -19,5 +26,6 @@
   text-align: center;
   background: $dark-primary;
   border: 1px solid $dark-border;
-  margin: 20px 0;
+  width: 70%;
+  margin: 20px auto;
 }

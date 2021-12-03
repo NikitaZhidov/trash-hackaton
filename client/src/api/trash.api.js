@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const baseAxios = axios.create({
-  baseURL: 'http://localhost:3001/api',
+  baseURL: 'https://hackaton-trash-app.herokuapp.com/api',
 });
 
 export const trashApi = {
@@ -12,6 +12,11 @@ export const trashApi = {
 
   async getTrashContainers() {
     const res = await baseAxios.get('/container');
+    return res.data;
+  },
+
+  async getTrashContainerById(id) {
+    const res = await baseAxios.get(`/container/${id}`);
     return res.data;
   },
 };
