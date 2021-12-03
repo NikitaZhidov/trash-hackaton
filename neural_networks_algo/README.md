@@ -3,3 +3,22 @@
 ## Окружение
 - conda install pytorch torchvision torchaudio cudatoolkit=10.2 -c pytorch
 - pip install opencv-python efficientnet-pytorch Pillow albumentations
+
+## Детекция
+
+В качестве модели для детекции в обоих задачах использовалась [yolov5s](https://github.com/ultralytics/yolov5).
+
+Для решения задачи детекции баков модель была обучена на наших данных, для решения задачи поиска свободных парковочных мест использовалась предобученная модель.
+Полученная метрика на валидации:
+
+mAP@.5: 0.973
+
+
+## Классификация заполненности баков
+
+Backbone был взят [Efficient-net-b3](https://github.com/lukemelas/EfficientNet-PyTorch) и обучен на два класса: заполненный и не заполненный.
+
+Полученная метрика на валидации:
+
+Accuracy: 0.956
+
