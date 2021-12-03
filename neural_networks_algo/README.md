@@ -11,7 +11,7 @@
 
 Для решения задачи детекции баков модель была обучена на наших данных, для решения задачи поиска свободных парковочных мест использовалась предобученная модель.
 
-### [Датасет с баками](https://drive.google.com/drive/folders/1iWbv-UfowGBAM7VzPunUIpZUzYzOo7di?usp=sharing):
+### [Датасет с баками для детекции](https://drive.google.com/drive/folders/1iWbv-UfowGBAM7VzPunUIpZUzYzOo7di?usp=sharing):
 
 Объем датасета: около 400 картинок, 1000 объектов
 
@@ -26,7 +26,7 @@ mAP@.5: 0.973
 
 Backbone был взят [Efficient-net-b3](https://github.com/lukemelas/EfficientNet-PyTorch) и обучен на два класса: заполненный и не заполненный.
 
-### [Датасет](https://drive.google.com/drive/folders/1iWbv-UfowGBAM7VzPunUIpZUzYzOo7di?usp=sharing):
+### [Датасет с баками для классификации](https://drive.google.com/drive/folders/1iWbv-UfowGBAM7VzPunUIpZUzYzOo7di?usp=sharing):
 
 Объем датасета: 1000 картинок
 
