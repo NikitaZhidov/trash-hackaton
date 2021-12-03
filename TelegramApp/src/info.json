@@ -1,0 +1,88 @@
+{
+  "coord": [
+    {
+      "id": 0,
+      "address": "Белогазова 131",
+      "position": [54.902413, 52.288970],
+      "cnt_all": 8,
+      "cnt_empty": 1
+    },
+    {
+      "id": 1,
+      "address": "Белогазова 151",
+      "position": [54.900565, 52.287531],
+      "cnt_all": 3,
+      "cnt_empty": 1
+    },
+    {
+      "id": 3,
+      "address": "Гафиатуллина 29Б",
+      "position": [54.905514, 52.270442],
+      "cnt_all": 11,
+    "cnt_empty": 1
+    },
+    {
+      "id": 4,
+      "address": "Гафиатуллина 39",
+      "position": [54.907082, 52.266480],
+      "cnt_all": 2,
+      "cnt_empty": 0
+    },
+    {
+      "id": 5,
+      "address": "Гафиатуллина 45",
+      "position": [54.905836, 52.263695],
+      "cnt_all": 6,
+      "cnt_empty": 3
+    },
+    {
+      "id": 6,
+      "address": "Гафиатуллина 47",
+      "position": [54.906884, 52.263436],
+      "cnt_all": 3,
+      "cnt_empty": 1
+    },
+    {
+      "id": 7,
+      "address": "Гафиатуллина 47",
+      "position": [54.907290, 52.263910],
+      "cnt_all": 0,
+      "cnt_empty": 0
+    },
+    {
+      "id": 10,
+      "address": "Ленина 66",
+      "position": [54.899748, 52.290631],
+      "cnt_all": 4,
+      "cnt_empty": 4
+    },
+    {
+      "id": 11,
+      "address": "Ленина 90",
+      "position": [54.899056, 52.285639],
+      "cnt_all": 7,
+      "cnt_empty": 3
+    },
+    {
+      "id": 12,
+      "address": "Шевченко 80",
+      "position": [54.895689, 52.288546],
+      "cnt_all": 8,
+      "cnt_empty": 3
+    },
+    {
+      "id": 14,
+      "address": "Строителей 20б",
+      "position": [54.901034, 52.267322],
+      "cnt_all": 18,
+      "cnt_empty": 8
+    },
+    {
+      "id": 15,
+      "address": "Строителей 20",
+      "position": [54.902870, 52.269787],
+      "cnt_all": 14,
+      "cnt_empty": 5
+    }
+  ]
+}

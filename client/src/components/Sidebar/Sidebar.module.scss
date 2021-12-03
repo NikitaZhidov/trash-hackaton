@@ -27,6 +27,7 @@
 
   &:active {
     background-color: $dark-secondary;
+    transition: all 0.1s ease;
   }
 }
 
