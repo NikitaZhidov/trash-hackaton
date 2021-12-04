@@ -349,12 +349,11 @@ def main():
     components = get_components(car_counts)
     paths = get_paths(components)
 
-    '''
     # Сохраняем пути в базе данных
     db.hack_route.drop()
     coll = db.hack_route
     coll.insert_one({"path": paths})
-'''
+
 
 if __name__ == '__main__':
     main()
